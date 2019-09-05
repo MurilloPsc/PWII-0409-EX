@@ -1,7 +1,8 @@
-let numero : number = 33
+    let num : number = 33
 
-if (numero % 2 == 0){
-    console.log('True, o número é par ')
-}else {
-    console.log('False, o número é ímpar ')
-}
+
+let parImpar1 = function (num:number) : boolean{
+    if(num %2 == 0)
+        return true 
+    else 
+        return false }

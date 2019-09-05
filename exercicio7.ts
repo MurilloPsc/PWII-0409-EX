@@ -1,0 +1,4 @@
+class Piscina {
+    diametro: number
+
+}
